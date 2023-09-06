@@ -1,0 +1,91 @@
+.planButton {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem auto 0.3rem auto;
+    height: 200px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+}
+
+.buttonText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 1.5rem;
+}
+
+.buttonImg {
+    margin-left: 1rem;
+}
+
+.planName {
+    font-family: Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+
+.planPrice {
+    font-family: Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: hsl(231, 11%, 63%);
+}
+
+.switchBtn-div {
+    width: 95%;
+    display: flex;
+    background-color: hsla(230, 12%, 63%, 0.11);
+    border-radius: 12px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.switchBtn-div h1 {
+    font-size: 1rem;
+
+}
+
+#monthlyswitch {
+    height: 50%;
+    width: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: ease 0.3s;
+    margin: auto 15px;
+}
+
+#monthlyswitch p {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 70%;
+    width: 30%;
+    margin-left: 5px;
+    transition: ease 0.3s;
+}
+
+#monthlyswitch.change {
+    justify-content: flex-end;
+    padding-right: 5px;
+    transition: ease 0.3s;
+}
+
+.planButton:hover, #monthlyswitch:hover {
+    cursor: pointer;
+}
+
+.planButton:focus {
+    background-color: hsla(230, 12%, 63%, 0.11);
+    border: 1px solid hsl(268, 93%, 26%);
+    transition: ease 0.5s;
+}

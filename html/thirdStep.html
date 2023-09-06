@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/thirdStep.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Multi-step form</title>
+</head>
+<body>
+    <main id="main-container">
+        <section id="sidebar">
+            <div class="sidebarNumber"><a href="../html/index.html">1</a></div>
+            <div class="sidebarNumber"><a href="../html/secondStep.html">2</a></div>
+            <div class="sidebarNumber active"><a href="../html/thirdStep.html">3</a></div>
+            <div class="sidebarNumber"><a href="../html/summary.html">4</a></div>
+        </section>
+
+        <section id="main-form">
+            <h1 id="title" class="title">Pick add-ons</h1>
+            <p id="desc" class="desc">Add-ons help enhance your gaming experience.</p>
+
+            <div class="option" id="container-addon1">
+                <input type="checkbox" id="checkAddon1" name="checkAddon1" class="check">
+                <span class="checkmark"></span>
+                <div class="add-onText">
+                    <p class="add-onTitle">Online service</p>
+                    <p class="add-onDesc">Access to multiplayer games</p>
+                </div>
+            </div>
+
+            <div class="option" id="container-addon2">
+                <input type="checkbox" id="checkAddon2" class="check">
+                <span class="checkmark"></span>
+                <div class="add-onText">
+                    <p class="add-onTitle">Larger storage</p>
+                    <p class="add-onDesc">Extra 1TB of cloud save</p>
+                </div>
+            </div>
+
+            <div class="option" id="container-addon3">
+                <input type="checkbox" id="checkAddon3" class="check">
+                <span class="checkmark"></span>
+                <div class="add-onText">
+                    <p class="add-onTitle">Customizable profile</p>
+                    <p class="add-onDesc">Custom theme on your profile</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <button class="goBackBtn" id="goBackBtn"><a href="/html/secondStep.html">Go Back</a></button>
+            <button class="nextStepBtn" id="nextStepBtn">Next Step</button>
+        </footer>
+
+      </main>
+      <script src="../Js/thirdStep.js"></script>
+</body>
+</html>

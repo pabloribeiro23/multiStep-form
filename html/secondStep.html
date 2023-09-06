@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/secondStep.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Multi-step form</title>
+</head>
+<body>
+    <main id="main-container">
+        <section id="sidebar">
+            <div class="sidebarNumber"><a href="../html/index.html">1</a></div>
+            <div class="sidebarNumber active"><a href="../html/secondStep.html">2</a></div>
+            <div class="sidebarNumber"><a href="../html/thirdStep.html">3</a></div>
+            <div class="sidebarNumber"><a href="../html/summary.html">4</a></div>
+        </section>
+
+        <section id="main-form">
+          <h1 id="title" class="title">Select your plan</h1>
+          <p id="desc" class="desc">You have the option of monthly or yearly billing.</p>
+          <button id="buttonArcade" class="planButton">
+            <img src="../assets/images/icon-arcade.svg" alt="Arcade Icon" class="buttonImg">
+            <div class="buttonText">
+              <p class="planName">Arcade</p>
+              <p class="planPrice">$<span id="arcadePrice">9/mo</span></p>
+            </div>
+          </button>
+
+          <button id="buttonAdvanced" class="planButton">
+            <img src="../assets/images/icon-advanced.svg" alt="Advanced Icon" class="buttonImg">
+            <div class="buttonText">
+              <p class="planName">Advanced</p>
+              <p class="planPrice">$<span id="advancedPrice">12/mo</span></p>
+            </div>
+          </button>
+
+          <button id="buttonPro" class="planButton">
+            <img src="../assets/images/icon-pro.svg" alt="Pro Icon" class="buttonImg">
+            <div class="buttonText">
+              <p class="planName">Pro</p>
+              <p class="planPrice">$<span id="proPrice">15/mo</span></p>
+            </div>
+          </button>
+          <div class="switchBtn-div">
+            <h1 class="title">Monthly</h1>
+            <button id="monthlyswitch"><p id="btnValue">0</p></button>
+            <h1 class="title">Yearly</h1>
+          </div>
+        </section>
+        <footer>
+          <button class="goBackBtn" id="goBackBtn"><a href="/html/index.html">Go Back</a></button>
+          <button class="nextStepBtn" id="nextStepBtn">Next Step</button>
+        </footer>
+      </main>
+    
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+      <script src="../Js/secondStep.js"></script>
+</body>
+</html>

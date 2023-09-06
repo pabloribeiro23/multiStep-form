@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/summary.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Multi-step form</title>
+</head>
+<body>
+    <main id="main-container">
+        <section id="sidebar">
+            <div class="sidebarNumber"><a href="../html/index.html">1</a></div>
+            <div class="sidebarNumber"><a href="../html/secondStep.html">2</a></div>
+            <div class="sidebarNumber"><a href="../html/thirdStep.html">3</a></div>
+            <div class="sidebarNumber active"><a href="../html/summary.html">4</a></div>
+        </section>
+
+        <section id="main-form">
+            <h1 id="title" class="title">Finishing up</h1>
+            <p id="desc" class="desc">Double-check everything looks OK before confirming.</p>
+
+            <div id="summary-container">
+                <div class="plan-container" id="plan-container">
+                    <p id="plan-details"></p>
+                    <p id="plan-price"></p>
+                </div>
+                <div class="addons-container" id="addons-container"></div>
+            </div>
+            <div class="summary-total" id="summary-total"></div>
+        </section>
+
+        <footer>
+            <button class="goBackBtn" id="goBackBtn"><a href="/html/thirdStep.html">Go Back</a></button>
+            <button class="nextStepBtn" id="nextStepBtn">Confirm</button>
+        </footer>
+      </main>
+      <script src="../Js/summary.js"></script>
+</body>
+</html>
