@@ -90,5 +90,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 nextStepBtn.addEventListener('click', () => {
     localStorage.setItem('userInfo', JSON.stringify(userInfo));
-    window.location.href = './summary.html';
+    window.location.href = 'https://pabloribeiro23.github.io/multiStep-form/summary.html';
 })
