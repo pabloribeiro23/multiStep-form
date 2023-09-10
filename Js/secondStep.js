@@ -75,6 +75,16 @@ buttonPro.addEventListener('click', () => {
 })
 
 nextStepBtn.addEventListener('click', () => {
-    localStorage.setItem('userInfo', JSON.stringify(userInfo));
-    window.location.href = '../html/thirdStep.html';
+    if(userInfo.planName !== undefined && userInfo.planName.trim() !== ""){
+        localStorage.setItem('userInfo', JSON.stringify(userInfo));
+        window.location.href = '../html/thirdStep.html';
+    } else {
+        Swal.fire({
+            icon: "error",
+            title: "",
+            text: "You must select a plan to continue.",
+            timer: 3000,
+            confirmButtonText: "Accept",
+    })
+    }
 })

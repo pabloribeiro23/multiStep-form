@@ -23,14 +23,12 @@
 }
 
 .summary-planName, .summary-planPrice, .summary-addonPrice {
-    font-family: Tahoma, sans-serif;
     font-size: 0.9rem;
     color: hsl(213, 96%, 18%);
     font-weight: bold;
 }
 
 .summary-addonName, .summary-totalTitle {
-    font-family: Tahoma, sans-serif;
     font-size: 0.9rem;
     color: hsl(231, 11%, 63%);
 }
@@ -40,7 +38,6 @@
 }
 
 .summary-totalPrice {
-    font-family: Tahoma, sans-serif;
     font-size: 0.9rem;
     color: hsl(268, 42%, 59%);
     font-weight: bold;
@@ -49,5 +46,4 @@
 
 .swal2-popup {
     font-size: 1.2rem;
-    font-family: Tahoma, sans-serif;
   }

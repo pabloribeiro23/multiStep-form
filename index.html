@@ -3,18 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <title>Frontend Mentor | Multi-step form</title>
 </head>
 <body>
 
   <main id="main-container">
     <section id="sidebar">
-      <div class="sidebarNumber active"><a href="#">1</a></div>
-      <div class="sidebarNumber"><a href="../html/secondStep.html">2</a></div>
-      <div class="sidebarNumber"><a href="../html/thirdStep.html">3</a></div>
-      <div class="sidebarNumber"><a href="../html/summary.html">4</a></div>
+      <div class="sidebar-info">
+        <div class="sidebarNumber active"><a href="#">1</a></div>
+        <div class="sidebarTextCont">
+          <h1 class="sidebar-infoTitle">STEP 1</h1>
+          <p class="sidebar-infoDesc">YOUR INFO</p>
+        </div>
+      </div>
+      <div class="sidebar-info">
+        <div class="sidebarNumber"><a href="../html/secondStep.html">2</a></div>
+        <div class="sidebarTextCont">
+          <h1 class="sidebar-infoTitle">STEP 2</h1>
+          <p class="sidebar-infoDesc">SELECT PLAN</p>
+        </div>
+      </div>
+      <div class="sidebar-info">
+        <div class="sidebarNumber"><a href="../html/thirdStep.html">3</a></div>
+        <div class="sidebarTextCont">
+          <h1 class="sidebar-infoTitle">STEP 3</h1>
+          <p class="sidebar-infoDesc">ADD-ONS</p>
+        </div>
+      </div>
+      <div class="sidebar-info">
+        <div class="sidebarNumber"><a href="../html/summary.html">4</a></div>
+        <div class="sidebarTextCont">
+          <h1 class="sidebar-infoTitle">STEP 4</h1>
+          <p class="sidebar-infoDesc">SUMMARY</p>
+        </div>
+      </div>
     </section>
     <section id="main-form">
       <h1 class="title">Personal info</h1>

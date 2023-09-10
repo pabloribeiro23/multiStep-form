@@ -14,6 +14,11 @@ nextStepBtn.addEventListener('click', () => {
         localStorage.setItem('userInfo', JSON.stringify(userInfo));
         window.location.href = '../html/secondStep.html';
     } else {
-        alert('Debe rellenar los campos faltantes')
-    }
-})
+        Swal.fire({
+            icon: "error",
+            title: "",
+            text: "You must fill out all the fields to continue.",
+            timer: 3000,
+            confirmButtonText: "Accept",
+    })
+}})

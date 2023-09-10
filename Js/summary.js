@@ -50,6 +50,6 @@ confirmBtn.addEventListener("click", () => {
         timer: 10000,
         confirmButtonText: "Accept",
       }).then(() => {
-        location.href = "index.html"
+        window.location.href = "../index.html"
       })
 })
