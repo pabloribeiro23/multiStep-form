@@ -12,7 +12,7 @@ nextStepBtn.addEventListener('click', () => {
             phoneNumber: phone
         }
         localStorage.setItem('userInfo', JSON.stringify(userInfo));
-        window.location.href = './secondStep.html';
+        window.location.href = 'https://pabloribeiro23.github.io/multiStep-form/secondStep.html';
     } else {
         Swal.fire({
             icon: "error",
