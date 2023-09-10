@@ -17,7 +17,7 @@ Users should be able to:
   - A step is submitted, but no selection has been made
 
 ### Links
-- Solution URL: [https://pabloribeiro23.github.io/multi-step-form](https://pabloribeiro23.github.io/multi-step-form)
+- Solution URL: [https://pabloribeiro23.github.io/multiStep-form/](https://pabloribeiro23.github.io/multiStep-form/)
 ## Author
 
 - Website - [pabloribeiro23.github.io](pabloribeiro23.github.io)
