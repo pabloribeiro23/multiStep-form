@@ -77,7 +77,7 @@ buttonPro.addEventListener('click', () => {
 nextStepBtn.addEventListener('click', () => {
     if(userInfo.planName !== undefined && userInfo.planName.trim() !== ""){
         localStorage.setItem('userInfo', JSON.stringify(userInfo));
-        window.location.href = '../html/thirdStep.html';
+        window.location.href = './thirdStep.html';
     } else {
         Swal.fire({
             icon: "error",

@@ -90,5 +90,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 nextStepBtn.addEventListener('click', () => {
     localStorage.setItem('userInfo', JSON.stringify(userInfo));
-    window.location.href = '../html/summary.html';
+    window.location.href = './summary.html';
 })

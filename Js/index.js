@@ -12,7 +12,7 @@ nextStepBtn.addEventListener('click', () => {
             phoneNumber: phone
         }
         localStorage.setItem('userInfo', JSON.stringify(userInfo));
-        window.location.href = '../html/secondStep.html';
+        window.location.href = './secondStep.html';
     } else {
         Swal.fire({
             icon: "error",
